@@ -1,0 +1,24 @@
+# Database dumps (real data, never commit)
+*.sql
+!init/*.sql
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Java / Maven build output
+target/
+*.class
+*.log
+
+# Frontend
+node_modules/
+dist/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
